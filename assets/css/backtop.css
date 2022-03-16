@@ -2,6 +2,58 @@ html {scroll-behavior:smooth;}
 #scroll-to-top {background-color:rgba(19,20,25,.6); width:44px; height:40px; position:fixed; bottom:0; right:40px; border-radius:5px 5px 0 0; box-shadow:0 0 10px rgba(0,0,0,.2); text-align:center;}
 #scroll-to-top i {color:#fff; font-size:22px; line-height:44px;}
 
+/*about image  style - start*/
+
+.hexagon {
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+       -moz-transform: rotate(120deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(120deg);
+            transform: rotate(120deg);
+    cursor: pointer;
+    }
+.hexagon-in1 {
+    -webkit-backface-visibility: hidden;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2 {
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(https://github.com/alfredamboka/AlfredPorfolio/blob/main/assets/img/amboka.png);
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+       -moz-transform: rotate(-60deg);
+        -ms-transform: rotate(120deg);
+         -o-transform: rotate(-60deg);
+            transform: rotate(-60deg);
+    }
+.hexagon-in2:hover {
+    background-image: url(https://photos.google.com/photo/AF1QipN-lyFY9RK-nhV1YEeCTathMmkBVs8JBXl2IjEu);
+    }
+
+.hexagon1 {
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 -80px;
+    }
+.hexagon2 {
+    width: 200px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+/*about image  style - end*/
+
 .features-clean {color:#313437; background-color:#fff; padding-bottom:30px;}
 .features-clean p {color:#7d8285;}
 .features-clean h2 {font-weight:700; margin-bottom:40px; padding-top:40px; color:inherit;}
