@@ -108,16 +108,3 @@ window.innerWidth < 768 &&
     },
     !1
   );
-
-function sendEmail() {
-   Email.send({
-     SecureToken: "862e1602-f471-4915-b9de-0aad5eee834f",
-     To : 'alfredamboxan.wegner@gmail.com',
-     From : document.getElementById("email").value,
-     Subject : "Contact form Inquiry: Send From portfolio",
-     Body : "Name:" + document.getElementById("name").value
-     + "<br> Email:" + document.getElementById("email").value + 
-     "<br> Message:" + document.getElementById("message").value
-
-    }).then(
-      message => alert("Thank You. Message send successfully."));}
