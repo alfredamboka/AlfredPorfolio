@@ -11,11 +11,11 @@
                     </div>
                     <hr class="modern-form__hr">
                     <div class="modern-form__form-container" style="padding-top: 20px;">
-                        <form>
+                        <form onsubmit="sendEmail(); reset(); return false;">
                             <div class="row">
                                 <div class="col col-contact">
                                     <div class="modern-form__form-group--padding-r form-group mb-3">
-                                        <input class="form-control input input-tr" type="text" placeholder="First Name">
+                                        <input class="form-control input input-tr" type="text" id="name" placeholder="Name" required>
                                         <div class="line-box">
                                             <div class="line"></div>
                                         </div>
@@ -23,7 +23,7 @@
                                 </div>
                                 <div class="col col-contact">
                                     <div class="modern-form__form-group--padding-l form-group mb-3">
-                                        <input class="form-control input input-tr" type="text" placeholder="Email">
+                                        <input class="form-control input input-tr" type="email" id="email" placeholder="Email" required>
                                         <div class="line-box">
                                             <div class="line"></div>
                                         </div>
@@ -33,7 +33,7 @@
                             <div class="row">
                                 <div class="col">
                                     <div class="modern-form__form-group--padding-t form-group mb-3">
-                                        <textarea class="form-control input modern-form__form-control--textarea" placeholder="Message" style="border-radius: 15px;"></textarea>
+                                        <textarea class="form-control input modern-form__form-control--textarea" id="message" placeholder="Message" required style="border-radius: 15px;"></textarea>
                                         <div class="line-box">
                                             <div class="line"></div>
                                         </div>
