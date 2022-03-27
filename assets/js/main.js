@@ -108,28 +108,3 @@ window.innerWidth < 768 &&
     },
     !1
   );
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-  function sendEmail() {
-    Email.send({
-      Host : "smtp.elasticemail.com",
-      Username : "alfredamboka.wegner@gmail.com",
-      Password : "3B3633837A6CD288DF7C97A8D7466DCBA7AB"
-      To : 'alfredamboxan.wegner@gmail.com',
-      From : document.getElementById("email").value,
-      Subject : "Contact form Inquiry: Send From portfolio",
-      Body : "Name:" + document.getElementById("name").value 
-      + "<br> Email:" + document.getElementById("email").value 
-      +  "<br> Message:" + document.getElementById("message").value
-     }).then(
-       message => alert("Thank You. Message send successfully."));}
-=======
->>>>>>> parent of 5ad626d (# contact form updated)
-=======
->>>>>>> parent of 5ad626d (# contact form updated)
-=======
->>>>>>> parent of 5ad626d (# contact form updated)
