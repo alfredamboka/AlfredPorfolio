@@ -108,6 +108,7 @@ window.innerWidth < 768 &&
     },
     !1
   );
+<<<<<<< HEAD
 
 
 
@@ -124,3 +125,5 @@ window.innerWidth < 768 &&
       +  "<br> Message:" + document.getElementById("message").value
      }).then(
        message => alert("Thank You. Message send successfully."));}
+=======
+>>>>>>> parent of 5ad626d (# contact form updated)
