@@ -1,35 +1,247 @@
-html {scroll-behavior:smooth;}
-#scroll-to-top {background-color:rgba(19,20,25,.6); width:44px; height:40px; position:fixed; bottom:0; right:40px; border-radius:5px 5px 0 0; box-shadow:0 0 10px rgba(0,0,0,.2); text-align:center;}
-#scroll-to-top i {color:#fff; font-size:22px; line-height:44px;}
+html {
+    scroll-behavior: smooth;
+}
+
+#scroll-to-top {
+    background-color: rgba(19, 20, 25, .6);
+    width: 44px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 40px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+#scroll-to-top i {
+    color: #fff;
+    font-size: 22px;
+    line-height: 44px;
+}
 
 /*about image  style - start*/
 
 
 /*about image  style - end*/
 
-.features-clean {color:#313437; background-color:#fff; padding-bottom:30px;}
-.features-clean p {color:#7d8285;}
-.features-clean h2 {font-weight:700; margin-bottom:40px; padding-top:40px; color:inherit;}
-.features-clean .intro {font-size:16px; max-width:500px; margin:0 auto 60px;}
-.features-clean .item {min-height:100px; padding-left:80px; margin-bottom:40px;}
+.features-clean {
+    color: #313437;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+
+.features-clean p {
+    color: #7d8285;
+}
+
+.features-clean h2 {
+    font-weight: 700;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+.features-clean .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 60px;
+}
+
+.features-clean .item {
+    min-height: 100px;
+    padding-left: 80px;
+    margin-bottom: 40px;
+}
+
 @media (max-width:767px) {
-.features-clean {padding-bottom:10px;}
-.features-clean h2 {margin-bottom:25px; padding-top:25px; font-size:24px;}
-.features-clean .intro {margin-bottom:40px;}
-.features-clean .item {min-height:0;}
+    .features-clean {
+        padding-bottom: 10px;
+    }
+
+    .features-clean h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+
+    .features-clean .intro {
+        margin-bottom: 40px;
+    }
+
+    .features-clean .item {
+        min-height: 0;
+    }
 }
-.features-clean .item .name {font-size:20px; font-weight:700; margin-top:0; margin-bottom:20px; color:inherit;}
-.features-clean .item .description {font-size:15px; margin-bottom:0;}
-.features-clean .item .icon {font-size:40px; color:#1485ee; float:left; margin-left:-65px;}
-#accordion-1 a:hover {text-decoration:none;}
-#accordion-1 .card-header {padding:0; margin-bottom:0; border:none;}
-#accordion-1 .card {border:none; margin-top:15px;}
-#accordion-1 p {font-size:17px;}
-#accordion-1 h5 {font-size:18px;}
+
+.features-clean .item .name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: inherit;
+}
+
+.features-clean .item .description {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.features-clean .item .icon {
+    font-size: 40px;
+    color: #1485ee;
+    float: left;
+    margin-left: -65px;
+}
+
+#accordion-1 a:hover {
+    text-decoration: none;
+}
+
+#accordion-1 .card-header {
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+#accordion-1 .card {
+    border: none;
+    margin-top: 15px;
+}
+
+#accordion-1 p {
+    font-size: 17px;
+}
+
+#accordion-1 h5 {
+    font-size: 18px;
+}
+
 @media (min-width:992px) {
-#accordion-1 h5,#accordion-1 p {font-size:20px;}
+    #accordion-1 h5, #accordion-1 p {
+        font-size: 20px;
+    }
 }
-#accordion-1 .panel-heading .panel-title>a {background-color:#d79640; border:none; color:#fff; display:block; font-family:Arial,Helvetica,sans-serif; line-height:28px; padding:15px 45px 15px 20px; word-wrap:break-word; border-radius:4px; transition:.3s;}
-#accordion-1 .panel-heading .panel-title>a:hover {background-color:#c2873b; transition:.3s;}
-#accordion-1 .panel-heading .panel-title>a::after {bottom:0; content:"▼"; font-family:Roboto,sans-serif; font-size:20px; font-weight:300; letter-spacing:-1px; line-height:57px; position:absolute; right:0; text-align:center; top:0; width:60px;}
-#accordion-1 .panel-heading .panel-title>a.collapsed::after {content:"◄";}
+
+#accordion-1 .panel-heading .panel-title>a {
+    background-color: #d79640;
+    border: none;
+    color: #fff;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    padding: 15px 45px 15px 20px;
+    word-wrap: break-word;
+    border-radius: 4px;
+    transition: .3s;
+}
+
+#accordion-1 .panel-heading .panel-title>a:hover {
+    background-color: #c2873b;
+    transition: .3s;
+}
+
+#accordion-1 .panel-heading .panel-title>a::after {
+    bottom: 0;
+    content: "▼";
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    line-height: 57px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 60px;
+}
+
+#accordion-1 .panel-heading .panel-title>a.collapsed::after {
+    content: "◄";
+}
+
+
+.contact-clean {
+    background: #f1f7fc;
+    padding: 80px 0
+}
+
+.contact-clean form {
+    max-width: 480px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .1)
+}
+
+@media (max-width:767px) {
+    .contact-clean {
+        padding: 20px 0
+    }
+
+    .contact-clean form {
+        padding: 30px
+    }
+}
+
+.contact-clean h2 {
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 36px;
+    color: inherit
+}
+
+.contact-clean form .form-control {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .05);
+    outline: 0;
+    color: inherit;
+    padding-left: 12px;
+    height: 42px
+}
+
+.contact-clean form .form-control:focus {
+    border: 1px solid #b2b2b2
+}
+
+.contact-clean form textarea.form-control {
+    min-height: 100px;
+    max-height: 260px;
+    padding-top: 10px;
+    resize: vertical
+}
+
+.contact-clean form .btn {
+    padding: 16px 32px;
+    background: 0 0;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: .9;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: .4px;
+    line-height: 1;
+    outline: 0 !important
+}
+
+.contact-clean form .btn:hover {
+    opacity: 1
+}
+
+.contact-clean form .btn:active {
+    transform: translateY(1px)
+}
+
+.contact-clean form .btn-primary {
+    background-color: #9932cc;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+    align-items: center
+}

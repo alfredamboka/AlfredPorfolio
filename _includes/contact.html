@@ -12,32 +12,64 @@
                     <hr class="modern-form__hr">
                     <div class="modern-form__form-container" style="padding-top: 20px;">
                         <!--contact form section.-->
-                        <form  action="https://formbold.com/s/9X1q3" method="POST">
-                            <label>
-                                First Name:
-                                <input type="text" name="name">
-                            </label>
-                            <label>
-                                Second Name:
-                                <input type="text" name="name">
-                            </label>
-                            <label>
-                                Your email:
-                                <input type="email" name="email">
-                            </label>
-                            <label>
-                                Your message:
-                                <textarea name="message" placeholder = "Type your message here please."></textarea>
-                            </label>
-                            <button type="submit">Send</button>
+                        <form action="https://formbold.com/s/9X1q3"  method="post">
+                            <!-- Start: Success Example -->
+                            <div class="mb-3">
+                                <input
+                                    class="form-control"
+                                    type="text"
+                                    name="name"
+                                    placeholder="Name"
+                                >
+                            </div>
+                            <!-- End: Success Example -->
+                            <!-- Start: Success Example -->
+                            <div class="mb-3">
+                                <input
+                                    class="form-control"
+                                    type="tel"
+                                    name="telephone"
+                                    placeholder="Phone number"
+                                >
+                            </div>
+                            <!-- End: Success Example -->
+                            <!-- Start: Error Example -->
+                            <div class="mb-3">
+                                <input
+                                    class="form-control is-invalid"
+                                    type="email"
+                                    name="email"
+                                    placeholder="Email"
+                                >
+                                <!-- Start: The Error Message -->
+                                <small class="form-text text-danger">Please enter a correct email address.</small>
+                                <!-- End: The Error Message -->
+                            </div>
+                            <!-- End: Error Example -->
+                            <div class="mb-3">
+                                <textarea
+                                    class="form-control"
+                                    name="message"
+                                    placeholder="Message"
+                                    rows="14"
+                                ></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary submit" type="submit">send</button>
+                            </div>
                         </form>
                     </div>
                 </div>
             </section>
         </div>
         <div class="col-md-6" style="border-style: ridge;border-color: #9ea3a7;height: 491px; margin-top:10px">
-            <div style="min-height: 405px;">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.851415443225!2d36.84015991425383!3d-1.261425835954124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f16eb9601573b%3A0xd3fd21052bcc867f!2sMuthaiga%20Square%20-%20Nairobi!5e0!3m2!1sen!2ske!4v1647196941981!5m2!1sen!2ske" style="border:0; width: 100%;height: 400px;" allowfullscreen="" loading="lazy"></iframe>
+            <div style="max-height: 400px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.851415443225!2d36.84015991425383!3d-1.261425835954124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f16eb9601573b%3A0xd3fd21052bcc867f!2sMuthaiga%20Square%20-%20Nairobi!5e0!3m2!1sen!2ske!4v1647196941981!5m2!1sen!2ske"
+                    style="border:0; width: 100%;height: 400px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                ></iframe>
             </div>
         </div>
     </div>
